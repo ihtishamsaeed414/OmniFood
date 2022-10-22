@@ -1,0 +1,38 @@
+HTML has 
+	1: doctype
+	2: html
+		i: head(tab wala hessa  e.g title)
+		ii: body(page wala hessa)
+
+so every thing is under one html tag
+     <--- structure ---->
+--------------------------------
+<!DOCTYPE html>
+<html>
+<head></head>
+<body></body>
+</html>
+--------------------------------
+it means that:
+1: all tags under one html tag
+2: opening tag, content, and closing tag makes an element(elements make a webpage or website)
+3: each an everything shuld be under a tag if not it will be unstructured text
+4: some tags are self closing and has attributes e.g <img src = "image.jpg"/> also attribute should not have commas in between them.
+5: non-self closing tag has forward slash before text(</khan>) and self closing tag has after text (<khan/>). modern html has no slash anymore in self closing tags
+	<!--- structuring HTML--->
+---------------------------------------------------
+		<header>
+		<nav></nav>
+		</header>
+		
+		<article>
+		</article>
+
+		<aside>              //for complementory information
+		</aside>
+
+		<footer>
+		</footer>
+---------------------------------------------------
+this is semantic tags or tags which do nothing but have meaning for human understanding before
+Html5 <div></div> were used. these are use for specifying the sections or used as a parent tag which helps in css.(when we give div to content in css it has no default margin padding(chipkao e da contents sara))

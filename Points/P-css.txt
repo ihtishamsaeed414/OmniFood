@@ -1,0 +1,18 @@
+RGBA(red, blue, green, alpha(for transparency))
+pseudo classes(important)
+conflicting selectors
+a: link should be as it select only those anchors haviing href
+box model applies to each and every element(different inline elements and block elements)
+tags/elements have default margins and paddings on the web page so make it to 0 in universal selector
+using margins and padding = 19:00 margin colapsing
+search for height = auto
+dimensions 7: 00
+centring page 6:00
+we cannot use margins for the small elemets like anchors
+inline elements = space depending on the width of text, block elements = space of the total block on page(4: 24 box types(very important vedio)) 
+margin paddig applies only horizentally for inline elements(height,widdth dont apply)
+tip: do not specify concrete height as elements may change the height in some circumstances
+(eg when giving right/bottom etc that margin from the las element should be erased by using  <<element>>:last-child)
+positioning 7: 02
+to absolute a button, make its parrent relative so that the button gets in the flow then provide margins paddings or absolute positioning is rlated with its parrent
+tools = codepin.io, html validator, diffchecker

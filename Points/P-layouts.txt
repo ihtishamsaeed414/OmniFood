@@ -1,0 +1,55 @@
+						<< Floats >> 
+when an element is float it is taken aout from the page like absolute positioning and act as it do not exist in that place therefore its "parrent" div height become zero or its fill area become zero
+all other element float(wrape) around it but that  floated element do no overlap
+floated elemet act as inline block as margins and padding is applied
+1: out of flow
+2: other elements wrape around it
+3: clear the floats of other elements
+4:pseodu element are inline and float can be cleared only by block elements
+flaots are cleared in order to make other elements on its actual place
+ summary: upon floating the element(childs) the parrent fill area will zero if parrent does not exist simply then no fill area is there and all other elemets will be float around it.
+and it will not overlap the other elements(characteristic of floats)
+--------------------------------
+upon boxsizing border box content area become minmized
+---------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+						<< Flex Box >>
+child of flex box is called flex elements
+greater height of conatainer will impos on all other
+it requires parrent container
+1 dimentional layout
+in flex box if flex item will have width equal to its text even if if we specify the smaller width for that item
+1: flex container
+2: make gaps etc
+(
+justify-content: center; //horizentally
+align-items: center;	//vertically 
+)
+------------------------------------------------------------------------------------------------------------------------------		
+						<< Grid >>
+in grid if we specify columns then these columns are fill by the child elements(main divs).
+1: grid container
+2: specify columns
+3: specify columns  and rwo gap(rows are automatically determined by grids by looking upon the child divs)
+(
+
+
+//aligning tracks inside the container
+justify-content: center;
+align-content: center;
+
+//aligning item inside the cells
+align-items: center;
+justify-items: center;
+
+
+)
+--------------------------------------------------------------------------------------------
+for bigger layout or two dimension use grid
+for smaller or 1 demension use flex
+for positioning use floats
+:: All these three together makes a website
+----------------------------------------------
+Why we use two or more containers?
+two or more containers are used depending upon the scenario
+.g for flexbox we use the parrent container  or grid etc

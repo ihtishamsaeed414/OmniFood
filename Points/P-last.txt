@@ -1,0 +1,19 @@
+Responsive designs:
+watch vedio
+max-width property:
+	- if the container is larger than the specified max-width then the width of the elemetn is equal the value that was specified for max width.
+	- however if the container width is less than the specified max-width then the widht of the element will be 100% of the container element width.
+Rem(root element which  is the HTML tag in which all other tags lies): 
+	- 1 rem =16px
+	- by applying the rem we ca easily change it from root(HTML) which will automatically change the all the lenghts in document  consistently.
+--All the the units are converted to pixels before rendering on the browsing page which can be seen in inspect->computed
+
+in Root html we set the font size to percentage so that user can change it later. max-width--12: 00 
+
+
+//////////////
+max-width : ***;
+margin 0 auto;
+these two line make conatiner to be same size of viewport when viewport get smaller that contaienr also get smaller
+
+inline cannot be center by text align

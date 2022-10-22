@@ -1,0 +1,4 @@
+7:13 -  > steps
+imgs are inline therefore there is a small whitespace around it
+pricing2 25:00 for spacing
+work on div kay andar div margin
